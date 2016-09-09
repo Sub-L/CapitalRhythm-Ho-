@@ -14,40 +14,40 @@ public class note_score : MonoBehaviour {
     Vector3 temp;
 
 	void Start () {         // 처음 숫자 1:단노트 / 2:슬라이드L / 3: 슬라이드R / 4: 슬라이드U / 5:슬라이드D
-        respawn(1, 2, 48*t);//1
-        respawn(1, 8, 51*t);
-        respawn(1, 2, 54*t);
-        respawn(1, 8, 57*t);
-        respawn(1, 2, 60*t);
-        respawn(1, 8, 63*t);
-        respawn(1, 2, 66*t);
-        respawn(1, 8, 69*t);
-        respawn(1, 2, 72*t);
-        respawn(1, 8, 75*t);
-        respawn(1, 2, 78*t);
-        respawn(1, 8, 81*t);
-        respawn(1, 2, 84*t);
-        respawn(1, 8, 87*t);
-        respawn(1, 2, 90*t);
-        respawn(1, 8, 93*t);
-        respawn(1, 4, 96*t);//2
-        respawn(1, 6, 99*t);
-        respawn(1, 4, 102*t);
-        respawn(1, 6, 105*t);
-        respawn(1, 4, 108*t);
-        respawn(1, 6, 111*t);
-        respawn(1, 4, 114*t);
-        respawn(1, 6, 117*t);
-        respawn(1, 4, 120*t);
-        respawn(1, 6, 123*t);
-        respawn(1, 4, 126*t);
-        respawn(1, 6, 129*t);
-        respawn(1, 4, 132*t);
-        respawn(1, 6, 135*t);
-        respawn(1, 4, 138*t);
-        respawn(1, 6, 141*t);
+        respawn(1, 2, 48 * t);//1
+        respawn(1, 8, 51 * t);
+        respawn(1, 2, 54 * t);
+        respawn(1, 8, 57 * t);
+        respawn(1, 2, 60 * t);
+        respawn(1, 8, 63 * t);
+        respawn(1, 2, 66 * t);
+        respawn(1, 8, 69 * t);
+        respawn(1, 2, 72 * t);
+        respawn(1, 8, 75 * t);
+        respawn(1, 2, 78 * t);
+        respawn(1, 8, 81 * t);
+        respawn(1, 2, 84 * t);
+        respawn(1, 8, 87 * t);
+        respawn(1, 2, 90 * t);
+        respawn(1, 8, 93 * t);
+        respawn(1, 4, 96 * t);//2
+        respawn(1, 6, 99 * t);
+        respawn(1, 4, 102 * t);
+        respawn(1, 6, 105 * t);
+        respawn(1, 4, 108 * t);
+        respawn(1, 6, 111 * t);
+        respawn(1, 4, 114 * t);
+        respawn(1, 6, 117 * t);
+        respawn(1, 4, 120 * t);
+        respawn(1, 6, 123 * t);
+        respawn(1, 4, 126 * t);
+        respawn(1, 6, 129 * t);
+        respawn(1, 4, 132 * t);
+        respawn(1, 6, 135 * t);
+        respawn(1, 4, 138 * t);
+        respawn(1, 6, 141 * t);
         respawn(3, 4, (144) * t);//3
-        respawn(2, 6, (144 + 24) * t);
+        respawn(2, 6, (144 + 42) * t);
         respawn(3, 4, (144 + 48) * t);//4
         respawn(3, 4, (144 + 78) * t);
         respawn(2, 6, (144 + 96) * t);//5
@@ -55,7 +55,7 @@ public class note_score : MonoBehaviour {
         respawn(2, 6, (144 + 144) * t);//6
         respawn(2, 6, (144 + 174) * t);
         respawn(3, 4, (336) * t);//7
-        respawn(2, 6, (336 + 24) * t);
+        respawn(2, 6, (336 + 42) * t);
         respawn(3, 4, (336 + 48) * t);//8
         respawn(3, 4, (336 + 78) * t);
         respawn(2, 6, (336 + 96) * t);//9
@@ -63,7 +63,7 @@ public class note_score : MonoBehaviour {
         respawn(2, 6, (336 + 144) * t);//10
         respawn(2, 6, (336 + 174) * t);
         respawn(3, 4, (528) * t);//11
-        respawn(2, 6, (528 + 24) * t);
+        respawn(2, 6, (528 + 42) * t);
         respawn(3, 4, (528 + 48) * t);//12
         respawn(3, 4, (528 + 78) * t);
         respawn(2, 6, (528 + 96) * t);//13
@@ -71,43 +71,44 @@ public class note_score : MonoBehaviour {
         respawn(2, 6, (528 + 144) * t);//14
         respawn(2, 6, (528 + 174) * t);
         respawn(3, 4, (720) * t);//15
-        respawn(2, 6, (720 + 24) * t);
+        respawn(2, 6, (720 + 42) * t);
         respawn(3, 4, (720 + 48) * t);//16
         respawn(3, 4, (720 + 78) * t);
         respawn(2, 6, (720 + 96) * t);//17
         respawn(3, 4, (720 + 138) * t);
+        respawn(1, 2, (48 * 17 + 12) * t);
+        respawn(1, 4, (48 * 17 + 15) * t);
+        respawn(1, 2, (48 * 17 + 18) * t);
+        respawn(1, 4, (48 * 17 + 21) * t);
+        respawn(3, 4, (48 * 17 + 24) * t);
+        respawn(3, 6, (48 * 17 + 33) * t);
         respawn(2, 6, (720 + 144) * t);//18
-        respawn(2, 6, (720 + 174) * t);
-        respawn(3, 4, 48*19* t);//19
-        respawn(1, 3, (48 *20)* t);//20
+        respawn(1, 1, 864 * t);
+        respawn(1, 9, 867 * t);
+        respawn(1, 1, 876 * t);
+        respawn(1, 9, 879 * t);
+        respawn(1, 1, 888 * t);
+        respawn(1, 9, 897 * t);
+        respawn(1, 1, 906 * t);
+        respawn(1, 9, 909 * t);
+        respawn(3, 4, 48 * 19 * t);//19
+        respawn(1, 3, (48 * 20) * t);//20
         respawn(1, 7, (48 * 20) * t);
-        respawn(1, 3, (48 * 20+4) * t);
-        respawn(1, 7, (48 * 20+4) * t);
         respawn(1, 3, (48 * 20 + 8) * t);
         respawn(1, 7, (48 * 20 + 8) * t);
-        respawn(1, 3, (48 * 20 + 12) * t);
-        respawn(1, 7, (48 * 20 + 12) * t);
         respawn(1, 3, (48 * 20 + 16) * t);
         respawn(1, 7, (48 * 20 + 16) * t);
-        respawn(1, 3, (48 * 20 + 20) * t);
-        respawn(1, 7, (48 * 20 + 20) * t);
         respawn(1, 2, (48 * 20 + 24) * t);
         respawn(1, 8, (48 * 20 + 24) * t);
-        respawn(1, 2, (48 * 20 + 28) * t);
-        respawn(1, 8, (48 * 20 + 28) * t);
         respawn(1, 2, (48 * 20 + 32) * t);
         respawn(1, 8, (48 * 20 + 32) * t);
-        respawn(1, 2, (48 * 20 + 36) * t);
-        respawn(1, 8, (48 * 20 + 36) * t);
         respawn(1, 2, (48 * 20 + 40) * t);
         respawn(1, 8, (48 * 20 + 40) * t);
-        respawn(1, 2, (48 * 20 + 44) * t);
-        respawn(1, 8, (48 * 20 + 44) * t);
         respawn(4, 5, (48 * 21) * t);//21
-        respawn(4, 5, (48 * 21+18) * t);
-        respawn(4, 5, (48 * 21+36) * t);
-        respawn(4, 5, (48 * 22+6) * t);//22
-        respawn(4, 5, (48 * 22+24) * t);
+        respawn(4, 5, (48 * 21 + 18) * t);
+        respawn(4, 5, (48 * 21 + 36) * t);
+        respawn(4, 5, (48 * 22 + 6) * t);//22
+        respawn(4, 5, (48 * 22 + 24) * t);
         respawn(2, 3, (48 * 23) * t);//23
         respawn(2, 3, (48 * 23 + 18) * t);
         respawn(2, 3, (48 * 23 + 36) * t);
@@ -210,10 +211,17 @@ public class note_score : MonoBehaviour {
         respawn(1, 8, 1764 * t);
         respawn(1, 2, 1767 * t);
         respawn(1, 6, 1770 * t);
-        respawn(1, 4, 1773 * t);
-        respawn(1, 2, (48 * 37) * t);//37
-        respawn(1, 2, (48 * 37+30) * t);
-        respawn(1, 2, (48 * 37 + 42) * t);
+        respawn(1, 4, 1773 * t);//폭타 끝
+        respawn(3, 3, (48 * 37) * t);//37
+        respawn(1, 4, (48 * 37+12) * t);
+        respawn(1, 6, (48 * 37 + 15) * t);
+        respawn(2, 7, (48 * 37+18) * t);
+        respawn(1, 7, (48 * 37+36) * t);
+        respawn(1, 3, (48 * 37 + 39) * t);
+        respawn(1, 7, (48 * 37 + 42) * t);
+        respawn(1, 3, (48 * 37 + 45) * t);
+        respawn(4, 3, (48 * 38) * t);//38
+        respawn(4, 7, (48 * 38) * t);
     }
 
 
