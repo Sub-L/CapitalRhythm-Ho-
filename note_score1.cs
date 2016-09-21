@@ -15,37 +15,36 @@ public class note_score : MonoBehaviour {
 
 	void Start () {         // 처음 숫자 1:단노트 / 2:슬라이드L / 3: 슬라이드R / 4: 슬라이드U / 5:슬라이드D
         respawn(1, 2, 48 * t);//1
-        respawn(1, 8, 51 * t);
-        respawn(1, 2, 54 * t);
-        respawn(1, 8, 57 * t);
+
+        respawn(1, 8, 54 * t);
+
         respawn(1, 2, 60 * t);
-        respawn(1, 8, 63 * t);
-        respawn(1, 2, 66 * t);
-        respawn(1, 8, 69 * t);
+
+        respawn(1, 8, 66 * t);
+
         respawn(1, 2, 72 * t);
-        respawn(1, 8, 75 * t);
-        respawn(1, 2, 78 * t);
-        respawn(1, 8, 81 * t);
+
+        respawn(1, 8, 78 * t);
+
         respawn(1, 2, 84 * t);
-        respawn(1, 8, 87 * t);
-        respawn(1, 2, 90 * t);
-        respawn(1, 8, 93 * t);
+
+        respawn(1, 8, 90 * t);
+
         respawn(1, 4, 96 * t);//2
-        respawn(1, 6, 99 * t);
-        respawn(1, 4, 102 * t);
-        respawn(1, 6, 105 * t);
+
+        respawn(1, 6, 102 * t);
+
         respawn(1, 4, 108 * t);
-        respawn(1, 6, 111 * t);
-        respawn(1, 4, 114 * t);
-        respawn(1, 6, 117 * t);
+
+        respawn(1, 6, 114 * t);
+
         respawn(1, 4, 120 * t);
-        respawn(1, 6, 123 * t);
-        respawn(1, 4, 126 * t);
-        respawn(1, 6, 129 * t);
+
+        respawn(1, 6, 126 * t);
+
         respawn(1, 4, 132 * t);
-        respawn(1, 6, 135 * t);
-        respawn(1, 4, 138 * t);
-        respawn(1, 6, 141 * t);
+
+        respawn(1, 6, 138 * t);
         respawn(3, 4, (144) * t);//3
         respawn(2, 6, (144 + 42) * t);
         respawn(3, 4, (144 + 48) * t);//4
@@ -76,33 +75,13 @@ public class note_score : MonoBehaviour {
         respawn(3, 4, (720 + 78) * t);
         respawn(2, 6, (720 + 96) * t);//17
         respawn(3, 4, (720 + 138) * t);
-        respawn(1, 2, (48 * 17 + 12) * t);
-        respawn(1, 4, (48 * 17 + 15) * t);
-        respawn(1, 2, (48 * 17 + 18) * t);
-        respawn(1, 4, (48 * 17 + 21) * t);
-        respawn(3, 4, (48 * 17 + 24) * t);
-        respawn(3, 6, (48 * 17 + 33) * t);
         respawn(2, 6, (720 + 144) * t);//18
-        respawn(1, 1, 864 * t);
-        respawn(1, 9, 867 * t);
-        respawn(1, 1, 876 * t);
-        respawn(1, 9, 879 * t);
-        respawn(1, 1, 888 * t);
-        respawn(1, 9, 897 * t);
-        respawn(1, 1, 906 * t);
-        respawn(1, 9, 909 * t);
         respawn(3, 4, 48 * 19 * t);//19
         respawn(1, 3, (48 * 20) * t);//20
-        respawn(1, 7, (48 * 20) * t);
-        respawn(1, 3, (48 * 20 + 8) * t);
         respawn(1, 7, (48 * 20 + 8) * t);
         respawn(1, 3, (48 * 20 + 16) * t);
-        respawn(1, 7, (48 * 20 + 16) * t);
-        respawn(1, 2, (48 * 20 + 24) * t);
         respawn(1, 8, (48 * 20 + 24) * t);
         respawn(1, 2, (48 * 20 + 32) * t);
-        respawn(1, 8, (48 * 20 + 32) * t);
-        respawn(1, 2, (48 * 20 + 40) * t);
         respawn(1, 8, (48 * 20 + 40) * t);
         respawn(4, 5, (48 * 21) * t);//21
         respawn(4, 5, (48 * 21 + 18) * t);
@@ -122,106 +101,65 @@ public class note_score : MonoBehaviour {
         respawn(1, 4, (48 * 27) * t);//27 동치 중 왼쪽
         respawn(1, 4, (48 * 27 + 18) * t);
         respawn(1, 4, (48 * 27 + 36) * t);
-        respawn(1, 4, (48 * 28 + 6) * t);//28 동치 중 왼쪽
-        respawn(1, 4, (48 * 28 + 24) * t);
-        respawn(1, 6, (48 * 27) * t);//27 동치 중 오른쪽
-        respawn(1, 6, (48 * 27 + 18) * t);
-        respawn(1, 6, (48 * 27 + 36) * t);
         respawn(1, 6, (48 * 28 + 6) * t);//28 동치 중 오른쪽
         respawn(1, 6, (48 * 28 + 24) * t);
         respawn(1, 4, (48 * 28 + 30) * t);
         respawn(2, 8, (48 * 28 + 36) * t);//28
         respawn(2, 4, (48 * 28 + 42) * t);
-        respawn(1, 2, 1392 * t);//29
-        respawn(3, 4, 1392 * t);
-        respawn(1, 4, 1440 * t);
+        respawn(3, 4, 1392 * t);//29
         respawn(3, 6, 1440 * t);
-        respawn(1, 8, 1488 * t);
         respawn(2, 6, 1488 * t);
-        respawn(1, 6, 1536 * t);
         respawn(2, 4, 1536 * t);
         respawn(4, 6, 1584 * t);
         respawn(2, 4, 1590 * t);
         respawn(3, 6, 1632 * t);
         respawn(4, 4, 1638 * t);
         respawn(1, 8, 1680 * t);
-        respawn(1, 4, 1683 * t);
         respawn(1, 6, 1686 * t);
-        respawn(1, 2, 1689 * t);
         respawn(1, 8, 1728 * t);
-        respawn(1, 2, 1731 * t);
         respawn(1, 6, 1734 * t);
-        respawn(1, 4, 1737 * t);
-        respawn(1, 2, 1404 * t);
         respawn(3, 4, 1404 * t);
-        respawn(1, 4, 1452 * t);
         respawn(3, 6, 1452 * t);
-        respawn(1, 8, 1500 * t);
         respawn(2, 6, 1500 * t);
-        respawn(1, 6, 1548 * t);
         respawn(2, 4, 1548 * t);
         respawn(4, 6, 1596 * t);
         respawn(2, 4, 1602 * t);
         respawn(3, 6, 1644 * t);
         respawn(4, 4, 1650 * t);
         respawn(1, 8, 1692 * t);
-        respawn(1, 4, 1695 * t);
         respawn(1, 6, 1698 * t);
-        respawn(1, 2, 1701 * t);
         respawn(1, 8, 1740 * t);
-        respawn(1, 2, 1743 * t);
         respawn(1, 6, 1746 * t);
-        respawn(1, 4, 1749 * t);
-        respawn(1, 2, 1416 * t);
         respawn(3, 4, 1416 * t);
-        respawn(1, 4, 1464 * t);
         respawn(3, 6, 1464 * t);
-        respawn(1, 8, 1512 * t);
         respawn(2, 6, 1512 * t);
-        respawn(1, 6, 1560 * t);
         respawn(2, 4, 1560 * t);
         respawn(4, 6, 1608 * t);
         respawn(2, 4, 1614 * t);
         respawn(3, 6, 1656 * t);
         respawn(4, 4, 1662 * t);
         respawn(1, 8, 1704 * t);
-        respawn(1, 4, 1707 * t);
         respawn(1, 6, 1710 * t);
-        respawn(1, 2, 1713 * t);
         respawn(1, 8, 1752 * t);
-        respawn(1, 2, 1755 * t);
         respawn(1, 6, 1758 * t);
-        respawn(1, 4, 1761 * t);
-        respawn(1, 2, 1428 * t);
         respawn(3, 4, 1428 * t);
-        respawn(1, 4, 1476 * t);
         respawn(3, 6, 1476 * t);
-        respawn(1, 8, 1524 * t);
         respawn(2, 6, 1524 * t);
-        respawn(1, 6, 1572 * t);
         respawn(2, 4, 1572 * t);
         respawn(4, 6, 1620 * t);
         respawn(2, 4, 1626 * t);
         respawn(3, 6, 1668 * t);
         respawn(4, 4, 1674 * t);
         respawn(1, 8, 1716 * t);
-        respawn(1, 4, 1719 * t);
         respawn(1, 6, 1722 * t);
-        respawn(1, 2, 1725 * t);
         respawn(1, 8, 1764 * t);
-        respawn(1, 2, 1767 * t);
         respawn(1, 6, 1770 * t);
         respawn(1, 4, 1773 * t);//폭타 끝
         respawn(3, 3, (48 * 37) * t);//37
-        respawn(1, 4, (48 * 37+12) * t);
-        respawn(1, 6, (48 * 37 + 15) * t);
         respawn(2, 7, (48 * 37+18) * t);
         respawn(1, 7, (48 * 37+36) * t);
-        respawn(1, 3, (48 * 37 + 39) * t);
         respawn(1, 7, (48 * 37 + 42) * t);
-        respawn(1, 3, (48 * 37 + 45) * t);
-        respawn(4, 3, (48 * 38) * t);//38
-        respawn(4, 7, (48 * 38) * t);
+        respawn(4, 5, (48 * 38) * t);//38
     }
 
 
